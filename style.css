@@ -1,0 +1,32 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(141, 215, 218);
+
+}
+.col-md-8{
+    height: 400px;
+    overflow: scroll;
+}
+@media (max-width:768px) {
+    body{
+        height: fit-content;
+    }
+    .col-md-4{
+        margin-top:20px ;
+    }
+    .col-md-8{
+        margin: 20px 0px;
+
+    }
+}
